@@ -18,5 +18,17 @@ public class GithubDemoVdao {
 		
 		return "Github implementation executed";
 	}
+	
+	public String getList() {
+		
+		String str = "Welcome in new changes !";
+		if(str == "Welcome in new changes !") {
+			return success;
+		}
+		else {
+			return failure;
+		}
+		
+	}
 
 }

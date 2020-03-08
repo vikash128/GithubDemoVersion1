@@ -16,5 +16,10 @@ public class GithubDemoVcontroller {
 	public String getValue() {
 		return githubdemoService.getService();
 	}
+	
+	@GetMapping("/getlist")
+	public String getList() {
+		return githubdemoService.getList();
+	}
 
 }
