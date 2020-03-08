@@ -20,7 +20,15 @@ public class GithubDemoVdao {
 	}
 	
 	public String getList() {
-		return "Welcome in new changes !";
+		
+		String str = "Welcome in new changes !";
+		if(str == "Welcome in new changes !") {
+			return success;
+		}
+		else {
+			return failure;
+		}
+		
 	}
 
 }
