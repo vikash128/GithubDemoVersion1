@@ -12,5 +12,9 @@ public class GithubDemoVservice {
 	public String getService() {
 		return githubdemoDao.getDao();
 	}
+	
+	public String getList() {
+		return githubdemoDao.getList();
+	}
 
 }

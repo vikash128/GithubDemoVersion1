@@ -18,5 +18,9 @@ public class GithubDemoVdao {
 		
 		return "Github implementation executed";
 	}
+	
+	public String getList() {
+		return "Welcome in new changes !";
+	}
 
 }
